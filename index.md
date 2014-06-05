@@ -1,3 +1,8 @@
+---
+layout: default
+title: Polhemus Server Documentation
+---
+
 #Polhemus server
 The Polhemus Liberty Server is an impressive piece of equipment. There are 8- and 16-sensor versions which can track movement at 240Hz [1]. There is a simple, well documented USB protocol for the device, which also works over a serial port, albeit at a lower frequency [2]. Polhemus provide a "terminal" style program for interacting with the tracker and logging data [3].
 
