@@ -15,6 +15,7 @@ In general, there are two expected modes of operation for the tracker: polled an
 
 ## Server architecture
 The server runs with up to three threads:
+
 1. The main thread waits for commands to be sent over UDP. The commands are given below.
 2. A thread which continuously reads data from the tracker and stores it using multiple buffering [4]. The thread also updates a single buffer which contains the latest data read from the tracker.
 3. A thread which continuously reads data from the buffer and writes it to a file.
